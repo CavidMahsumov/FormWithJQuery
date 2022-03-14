@@ -1,0 +1,117 @@
+body{
+    background-color: lightgray;
+    user-select: none;
+}
+
+.maind{
+    display: flex;
+    flex-direction: row;
+}
+.d1{
+    background-color: white ;
+    width: 40em;
+    height: 80vh;
+    border-radius: 1em;
+}
+.d1>h1{
+    padding-left: 1em;  
+    padding-top: 1em;
+}
+.d1>button{
+    width: 20em;
+    height: 2vh;
+    margin-left: 10em;
+    border-style: none;
+    background-color: transparent;
+}
+.d1>button>img{
+    width: 30px;
+    height: 30px;
+}
+.d1>.dd2>p{
+    margin-left: 2em;
+    font-size: 18px;
+}
+#n{
+    margin-left: 2em;
+    width: 90%;
+    height: 5vh;
+    border-radius: 3em;
+    font-size: 16px;
+}
+#e{
+    margin-left: 2em;
+    width: 90%;
+    height: 5vh;
+    border-radius: 3em;
+    font-size: 16px;
+}
+#passwordtxt{
+    margin-left: 2em;
+    width: 90%;
+    height: 5vh;
+    border-radius: 3em;
+    font-size: 16px;
+}
+#nametxt:hover{
+    border-color: red;
+}
+
+#nametxt:focus{
+    background-color: rgb(136, 131, 131);
+}
+
+#emailtxt:hover{
+    border-color: red;
+}
+
+#emailtxt:focus{
+    background-color: rgb(136, 131, 131);
+}
+#passwordtxt:invalid{
+    background-color: red;
+}
+
+.linediv{
+    display: flex;
+    
+}
+.linediv>hr{
+    width: 7em;
+    height: 0.5vh;
+    background-color:gray;
+}
+#pe{
+    display: flex;
+}
+#pe>button{
+    width: 60px;
+    height: 60px;
+    border-style: none;
+}
+#pe>img{
+    width: 30px;
+    height: 30px;
+}
+#pd{
+    margin-left: 12em;
+    display: flex;
+}
+#pd>p{
+    margin-left: 5px;
+}
+#signbtn{
+    
+    margin-left: 5em;
+    border-radius: 1em;
+    width: 36em;
+    height: 5vh;
+    background-color: rgb(8, 176, 231);
+}
+
+.d1>.cd{
+    margin-left: 2em;
+    font-size: 1em;
+}
+
+
